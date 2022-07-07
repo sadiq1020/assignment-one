@@ -7,25 +7,36 @@ body {
     padding: 0;
 }
 
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h3 {
+    font-size: xx-large;
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-size: 22px;
+    font-family: 'Lora', serif;
+}
+
 #top-banner {
-    background-image: url(images/donation7.jpg);
+    background-image: url(images/top-banner-three.jpg);
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1 {
-    font-size: 70px;
-}
-
-h2 {
-    font-size: 45px;
-    font-weight: 900;
-}
-
-p {
-    font-size: larger;
-}
 
 .center {
     color: white;
@@ -40,7 +51,7 @@ p {
 }
 
 .link-button {
-    font-size: x-large;
+    font-size: larger;
     text-decoration: none;
     background-color: tomato;
     padding: 10px 14px;
@@ -49,18 +60,18 @@ p {
     margin-left: 45.5%;
 }
 
-.donate {
+.donation {
     color: black;
     margin: auto;
-    width: 100%;
+    width: 50%;
     text-align: center;
 }
 
-#second-section {
+.except-first-sec {
     margin-top: 100px;
 }
 
-.allp-except-top {
+.all-except-top {
     color: rgb(119, 118, 118);
 }
 
@@ -71,6 +82,7 @@ p {
 }
 
 .flex-items {
+    color: rgb(105, 105, 105);
     font-size: 30px;
     background-color: white;
     margin-left: 4%;
@@ -89,4 +101,118 @@ p {
     font-weight: 800;
     border-style: solid;
     border-color: tomato;
+}
+
+.money-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    font-size: larger;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #a19f9f;
+    padding: 7px 300px;
+}
+
+::placeholder {
+    text-align: center;
+    color: rgb(164, 164, 164);
+}
+
+.flex-container-two {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.flex-materials {
+    text-align: justify;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 120px;
+}
+
+.bck-colored-one {
+    background-color: rgb(17, 190, 196);
+    height: 300px;
+    border-radius: 10px;
+}
+
+.bck-colored-two {
+    background-color: rgb(165, 190, 20);
+    height: 300px;
+    border-radius: 10px;
+}
+
+.bck-colored-three {
+    background-color: rgb(235, 170, 90);
+    height: 300px;
+    border-radius: 10px;
+}
+
+.icon-size {
+    width: 65px;
+    height: 65px;
+}
+
+.pic-size {
+    align-content: center;
+    width: 100%;
+    height: 290px;
+}
+
+.gallery-border {
+    border: 10px solid tomato;
+}
+
+#form-input {
+    font-size: larger;
+    text-align: left;
+    border: 0px solid;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 7px 100px;
+}
+
+#subscribe-button {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: tomato;
+    padding: 9px 14px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.form-bck-img {
+    background-color: bisque;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 200px;
+}
+
+#quote {
+    text-align: center;
+    color: red;
+    padding-top: 46px;
+    font-family: 'The Nautigal', cursive;
+    font-size: 25px;
+}
+
+footer {
+    height: 170px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
 }
